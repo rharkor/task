@@ -1,7 +1,7 @@
 import { logger } from "@rharkor/logger"
 const { addPrefixToArgs, errorText, infoText, log, successText, warnText } = logger.utils
 import { stderr } from "process"
-import { clearLine, moveCursor } from 'readline'
+import { clearLine, moveCursor } from "readline"
 
 /**
  * Clear the last lines of the terminal

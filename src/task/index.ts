@@ -26,7 +26,7 @@ export async function startTask(options: {
   noClear?: boolean
 }) {
   const { maxLines = 10, name, successMessage } = options
-  if(isCI()) {
+  if (isCI()) {
     return {
       log: logger.log,
       error: logger.error,
@@ -34,7 +34,7 @@ export async function startTask(options: {
       info: logger.info,
       success: logger.log,
       stop: (message?: string) => {
-        if(message) {
+        if (message) {
           logger.log(message)
         }
       },
