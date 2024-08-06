@@ -1,0 +1,15 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+    ],
+    "dependencyDashboard": true,
+    "baseBranches": [
+        "dev"
+    ],
+    "platformAutomerge": true,
+    "branchConcurrentLimit": 3,
+    "schedule": [
+        "every weekend"
+    ]
+}

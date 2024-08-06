@@ -1,0 +1,35 @@
+# Node and build files
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn
+.pnp.*
+
+# TypeScript source maps and declaration files
+*.map
+*.tsbuildinfo
+
+# Configuration files
+tsconfig.json
+.eslintcache
+.prettierrc
+.prettierignore
+.editorconfig
+eslint.config.js
+
+# Source files
+src/
+test/
+spec/
+examples/
+scripts/
+debug/
+
+# Documentation
+*.md
+docs/
+
+# Other common directories not needed in package
+coverage/
+*.log
+.DS_Store
