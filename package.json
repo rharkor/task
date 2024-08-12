@@ -11,7 +11,8 @@
     "lint:fix": "eslint --fix .",
     "prettier": "prettier --check \"src/**/*.{ts,d.ts}\"",
     "prettier:fix": "prettier --write \"src/**/*.{ts,d.ts}\"",
-    "debug": "npm run -s build && tsx debug/index.js"
+    "debug": "npm run -s build && tsx debug/index.js",
+    "test": "npm run -s build && tsx debug/index.js"
   },
   "author": "HUORT Louis (https://louis.huort.com)",
   "homepage": "https://github.com/rharkor/task",
