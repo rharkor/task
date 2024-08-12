@@ -4,7 +4,10 @@ Task is an intuitive and robust tool for logging messages and tracking task prog
 
 _Based on the original [Logger](https://github.com/rharkor/logger) project._
 
-![Task demo](./docs/demo.png)
+[Task demo](https://github.com/user-attachments/assets/6ca18935-07f5-4266-8989-a5190f703053)
+
+
+
 
 ## Features 🌟
 
